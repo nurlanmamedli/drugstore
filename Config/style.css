@@ -1,0 +1,53 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: "Open Sans",Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+    background: #FFFFFF;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+.WhiteColor a:link, .WhiteColor a:active, .WhiteColor a:visited {
+    font-family: "Open Sans",Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+.AnaMenu a:active,.AnaMenu a:visited,.AnaMenu a:link{
+    font-family: "Open Sans",Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #0367A6;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: bolder;
+    font-size: 14px;
+    text-decoration: none;
+}
+.FooterColor a:link, .FooterColor a:active, .FooterColor a:visited{
+    font-family: "Open Sans",Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+}
+
