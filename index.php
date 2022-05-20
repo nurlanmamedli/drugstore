@@ -35,7 +35,7 @@ if (isset($_REQUEST["PageNum"])) {
     <script type="text/javascript" src="Config/functions.js" language="javascript"></script>
     <script type="text/javascript" src="Frameworks/jquery-3.6.0/jquery-3.6.0.min.js" language="javascript"></script>
 
-
+<!--- fill-rule="evenodd" --->
 </head>
 
 <body>
@@ -49,7 +49,7 @@ if (isset($_REQUEST["PageNum"])) {
         <symbol id="home" viewBox="0 0 16 16">
             <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
         </symbol>
-        <symbol id="people-circle" viewBox="0 0 16 16">
+        <symbol id="people" viewBox="0 0 16 16">
             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
             <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
         </symbol>
@@ -67,6 +67,19 @@ if (isset($_REQUEST["PageNum"])) {
         </symbol>
         <symbol id="sexualLife" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M11.5 1a.5.5 0 0 1 0-1h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-3.45 3.45A4 4 0 0 1 8.5 10.97V13H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V14H6a.5.5 0 0 1 0-1h1.5v-2.03a4 4 0 1 1 3.471-6.648L14.293 1H11.5zm-.997 4.346a3 3 0 1 0-5.006 3.309 3 3 0 0 0 5.006-3.31z"></path>
+        </symbol>
+        <symbol id="heartPulse" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Zm8.252-6.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z"/>
+        </symbol>
+        <symbol id="bandage" viewBox="0 0 16 16">
+            <path d="M14.121 1.879a3 3 0 0 0-4.242 0L8.733 3.026l4.261 4.26 1.127-1.165a3 3 0 0 0 0-4.242ZM12.293 8 8.027 3.734 3.738 8.031 8 12.293 12.293 8Zm-5.006 4.994L3.03 8.737 1.879 9.88a3 3 0 0 0 4.241 4.24l.006-.006 1.16-1.121ZM2.679 7.676l6.492-6.504a4 4 0 0 1 5.66 5.653l-1.477 1.529-5.006 5.006-1.523 1.472a4 4 0 0 1-5.653-5.66l.001-.002 1.505-1.492.001-.002Z"/>
+            <path d="M5.56 7.646a.5.5 0 1 1-.706.708.5.5 0 0 1 .707-.708Zm1.415-1.414a.5.5 0 1 1-.707.707.5.5 0 0 1 .707-.707ZM8.39 4.818a.5.5 0 1 1-.708.707.5.5 0 0 1 .707-.707Zm0 5.657a.5.5 0 1 1-.708.707.5.5 0 0 1 .707-.707ZM9.803 9.06a.5.5 0 1 1-.707.708.5.5 0 0 1 .707-.707Zm1.414-1.414a.5.5 0 1 1-.706.708.5.5 0 0 1 .707-.708ZM6.975 9.06a.5.5 0 1 1-.707.708.5.5 0 0 1 .707-.707ZM8.39 7.646a.5.5 0 1 1-.708.708.5.5 0 0 1 .707-.708Zm1.413-1.414a.5.5 0 1 1-.707.707.5.5 0 0 1 .707-.707Z"/>
+        </symbol>
+        <symbol id="skin" viewBox="0 0 16 16">
+            <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 0 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 1 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.118a.5.5 0 0 1-.447-.276l-1.232-2.465-2.512-4.185a.517.517 0 0 1 .809-.631l2.41 2.41A.5.5 0 0 0 6 9.5V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+        </symbol>
+        <symbol id="egg" viewBox="0 0 16 16">
+            <path d="M14 10a6 6 0 0 1-12 0C2 5.686 5 0 8 0s6 5.686 6 10z"/>
         </symbol>
     </svg>
 
@@ -108,10 +121,14 @@ if (isset($_REQUEST["PageNum"])) {
         <main>
             <div class="container bg-lıght">
                 <div class="d-flex flex-wrap align-items-center justify-content-end ">
-                    <ul class=" align-items-beginning"><td width="150" height="120"><img src="Images/logo3.png" width="120" height="120"></td></ul>
+                    <li class=" align-items-beginning col-4 list-unstyled">
+                        <a width="120" height="120" href="index.php">
+                            <img src="Images/logo3.png" width="120" height="120">
+                        </a>
+                    </li>
                     <ul class="nav col-12 col-lg-auto my-2 justify-content-end my-md-0 text-small">
                         <li>
-                            <a href="#" class="nav-link text-dark text-center">
+                            <a href="index.php" class="nav-link text-dark text-center">
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                     <use xlink:href="#home" />
                                 </svg>
@@ -119,15 +136,17 @@ if (isset($_REQUEST["PageNum"])) {
                             </a>
                         </li>
                         <li class="text-center">
-                        <i class="fas fa-capsules fa-2x" width="24" height="24"></i>
                             <a href="index.php?PageNum=1" class="nav-link text-dark">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#skin" />
+                                </svg>
                                 Cilt Bakım
                             </a>
                         </li>
                         <li>
                             <a href="index.php?PageNum=2" class="nav-link text-dark">
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#home" />
+                                    <use xlink:href="#people" />
                                 </svg>
                                 Çocuk & Bebek
                             </a>
@@ -135,7 +154,7 @@ if (isset($_REQUEST["PageNum"])) {
                         <li>
                             <a href="index.php?PageNum=3" class="nav-link text-dark">
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#table" />
+                                    <use xlink:href="#egg" />
                                 </svg>
                                 Gıda Takviyeleri
                             </a>
@@ -143,7 +162,7 @@ if (isset($_REQUEST["PageNum"])) {
                         <li>
                             <a href="index.php?PageNum=4" class="nav-link text-dark">
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#table" />
+                                    <use xlink:href="#bandage" />
                                 </svg>
                                 Ortopedi
                             </a>
@@ -159,9 +178,9 @@ if (isset($_REQUEST["PageNum"])) {
                         <li>
                             <a href="index.php?PageNum=6" class="nav-link text-dark text-center">
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#sexualLife" />
+                                    <use xlink:href="#heartPulse" />
                                 </svg>
-                                Ağrı kesiciler                                
+                                Ağrı kesiciler                               
                             </a>
                         </li>
                         <li>
