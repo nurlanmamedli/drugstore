@@ -35,7 +35,6 @@ if (isset($_REQUEST["PageNum"])) {
     <script type="text/javascript" src="Config/functions.js" language="javascript"></script>
     <script type="text/javascript" src="Frameworks/jquery-3.6.0/jquery-3.6.0.min.js" language="javascript"></script>
 
-<!--- fill-rule="evenodd" --->
 </head>
 
 <body>
