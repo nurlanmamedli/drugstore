@@ -15,25 +15,25 @@ if (isset($_REQUEST["PageNum"])) {
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Language" content="tr">
-    <meta charset="utf-8">                                                                                       
-    <meta name="robots" content="index, follow">                                                                 
-    <meta name="googlebot" content="index, follow">                                                              
-    <meta name="revisit-after" content="7 Days">                                              
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="revisit-after" content="7 Days">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?php echo BackToStart($SDescription); ?>">                                <!-- web sitemizin description kismini cekiyoruz -->
-    <meta name="keywords" content="<?php echo BackToStart($SKeywords); ?>">                                      <!-- sitemizi tanimlamak icin kullandigimiz keywordari cekiyoruz -->
-    <title><?php echo BackToStart($STitle); ?></title>              <!-- sitemizin titleni cekiyoruz -->
+    <meta name="description" content="<?php echo BackToStart($SDescription); ?>">
+    <meta name="keywords" content="<?php echo BackToStart($SKeywords); ?>">
+    <title><?php echo BackToStart($STitle); ?></title>
 
     <link rel="icon" type="image/x-icon" href="Images/favicon.png">
     <link href="bootstrap.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="Config/style.css">
-    <link rel="stylesheet" href="Config/style.css">                                                              <!-- css dosyalarini cekiyoruz -->
+    <link rel="stylesheet" href="Config/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
 
-    <script type="text/javascript" src="Config/functions.js" language="javascript"></script>                                     <!-- java script dosyalaarini cekiyoruz -->
-    <script type="text/javascript" src="Frameworks/jquery-3.6.0/jquery-3.6.0.min.js" language="javascript"></script>             <!-- turkce jqueryni cekiyoruz -->
+    <script type="text/javascript" src="Config/functions.js" language="javascript"></script>
+    <script type="text/javascript" src="Frameworks/jquery-3.6.0/jquery-3.6.0.min.js" language="javascript"></script>
 
 
 </head>
