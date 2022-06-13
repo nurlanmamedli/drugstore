@@ -28,10 +28,4 @@ $PageNum[21]    ="Pages/sikcaSorulanSorular.php";
 $PageNum[22]    ="Pages/sikayetVeTalepler.php";
 $PageNum[23]    ="Pages/iptalIadeDegisim.php";
 
-
-
-
-
-
-
 ?>

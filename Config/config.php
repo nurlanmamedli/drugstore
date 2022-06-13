@@ -1,15 +1,16 @@
 <?php
+ include './Config/connect.php';
 try{
-    $dataBaseLink = new PDO("mysql:host=localhost;dbname=drugstore;chaset=UTF8","root","");
+    $dataBaseLink;
     }
 catch(PDOException $Error){
-    //echo "Connection Error<br /> . $Error->getMessage();"
+    //echo "Connection Error<br /> . $Error->getMessage();" 
     die();
 }
 
-$ConfigQuery    = $dataBaseLink->prepare("Select * FROM settings LIMIT 1");
+$ConfigQuery    = $dataBaseLink->prepare("Select * FROM settings LIMIT 1");  // for using settings data table in all pages
 $ConfigQuery->execute();
-$ConfigCount    = $ConfigQuery->rowCount();
+$ConfigCount    = $ConfigQuery->rowCount();                                  // kaydin olup olmadigina bakiyorm
 $Config         = $ConfigQuery->fetch(PDO::FETCH_ASSOC);
 
 if ($ConfigCount>0) {
@@ -24,7 +25,7 @@ if ($ConfigCount>0) {
 
 }
 else{
-    //echo "Website config query error";
+    //echo "Website config query error";    // sitemizde hata olursa
     die();
 }
 
